@@ -1,3 +1,8 @@
 ::ng-deep .navigation .link nb-icon {
   display: none !important;
 }
+
+
+button[nbButton] {
+  margin: 0px;
+}

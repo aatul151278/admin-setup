@@ -8,6 +8,21 @@ export const MENU_ITEMS: NbMenuItem[] = [
     home: true,
   },
   {
+    title: 'MASTER',
+    group: true,
+  },
+  {
+    title: 'Account',
+    icon: 'people-outline',
+    children: [
+      {
+        title: 'Role',
+        link: '/pages/master/role',
+        icon: 'person-done-outline',
+      }
+    ],
+  },
+  {
     title: 'FEATURES',
     group: true,
   },

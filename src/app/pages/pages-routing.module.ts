@@ -14,6 +14,11 @@ const routes: Routes = [{
       component: ECommerceComponent,
     },
     {
+      path: 'master',
+      loadChildren: () => import('./master/master.module')
+        .then(m => m.MasterModule),
+    },
+    {
       path: 'forms',
       loadChildren: () => import('./forms/forms.module')
         .then(m => m.FormsModule),
